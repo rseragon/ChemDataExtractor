@@ -29,14 +29,11 @@ Installation
 
 To install ChemDataExtractor, simply run::
 
-    pip install chemdataextractor
+    pip install git+https://github.com/rseragon/ChemDataExtractor
 
-Or if you are an Anaconda user, run::
+Or if you are an pipenv user, run::
 
-    conda install -c chemdataextractor chemdataextractor
-
-Alternatively, try one of the other `installation options`_.
-
+    pipenv install -e git+https://github.com/rseragon/ChemDataExtractor\#egg\=chemdataextractor
 
 Documentation
 -------------
